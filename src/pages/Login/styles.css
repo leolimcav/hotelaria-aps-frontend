@@ -1,0 +1,33 @@
+.mainLogin {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  height: 38vh;
+}
+
+.quadrado {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  width: 70%;
+  border-radius: 14px;
+  color: #616161;
+  font-weight: 600;
+}
+
+.rowLogin {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cinza {
+  background-color: #616161;
+  border: 1px solid #616161;
+  margin-right: 15%;
+}

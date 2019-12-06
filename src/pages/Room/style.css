@@ -1,0 +1,51 @@
+#mainRoom {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: #616161;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnRoom {
+  display: flex;
+  flex-flow: column;
+  margin-left: 10%;
+  margin-right: 28%;
+}
+.columnRoom p {
+  font-size: 1.5em;
+  margin: 5% 0 3% 0;
+}
+.columnRoom input {
+  border-radius: 15px;
+  border: 1px solid #616161;
+}
+#date {
+  width: 250px;
+  margin-left: 5%;
+}
+
+.roomType,
+.roomValue {
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5%;
+}
+.roomValue {
+  margin-bottom: 30%;
+}
+.rowRoom {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.rowRoom p {
+  font-size: 0.8em;
+  align-self: center;
+}
+
+.cinza {
+  background-color: #616161;
+  border: 1px solid #616161;
+  margin-right: 15%;
+}
